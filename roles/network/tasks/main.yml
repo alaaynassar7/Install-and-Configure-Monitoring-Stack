@@ -1,0 +1,5 @@
+- name: Create monitoring podman network
+  containers.podman.podman_network:
+    name: monitoring_net
+    state: present
+
