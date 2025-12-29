@@ -19,7 +19,7 @@ All services run as containers and communicate over a dedicated Podman network.
 ---
 ## 📂 Images
 
-### 📈 Grafana Dashboard
+### 🚨 Alertmanager UI
 
 <img width="100%" alt="Grafana Dashboard" src="https://github.com/user-attachments/assets/341d6f7b-12f8-4d6b-b09c-2412f06749f6" />
 
@@ -31,7 +31,7 @@ All services run as containers and communicate over a dedicated Podman network.
 
 ---
 
-### 🚨 Alertmanager UI
+### 🚨 Graph
 
 <img width="100%" alt="Alertmanager UI" src="https://github.com/user-attachments/assets/a21a78b7-a10b-4fd3-8e7a-e671ea93bbfb" />
 
@@ -43,7 +43,7 @@ All services run as containers and communicate over a dedicated Podman network.
 
 ---
 
-### 🌐 Prometheus Overview
+### 🌐 Dashboard Overview
 
 <img width="100%" alt="Prometheus Overview" src="https://github.com/user-attachments/assets/f72bffe5-293b-4e3e-a746-73e4f9cf3644" />
 
