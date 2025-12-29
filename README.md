@@ -47,21 +47,37 @@ ansible-monitoring-stack/
 │           └── main.yml
 └── README.md
 
+---
+
 ## 📂 Images
 
 ### 📈 Grafana Dashboard
-<img src="https://github.com/user-attachments/assets/341d6f7b-12f8-4d6b-b09c-2412f06749f6" width="100%" />
+
+<img width="100%" alt="Grafana Dashboard" src="https://github.com/user-attachments/assets/341d6f7b-12f8-4d6b-b09c-2412f06749f6" />
+
+---
 
 ### 📊 Prometheus Targets
-<img src="https://github.com/user-attachments/assets/fa7ba37f-c5e4-417d-9b3c-64eacc02e671" width="100%" />
+
+<img width="100%" alt="Prometheus Targets" src="https://github.com/user-attachments/assets/fa7ba37f-c5e4-417d-9b3c-64eacc02e671" />
+
+---
 
 ### 🚨 Alertmanager UI
-<img src="https://github.com/user-attachments/assets/a21a78b7-a10b-4fd3-8e7a-e671ea93bbfb" width="100%" />
+
+<img width="100%" alt="Alertmanager UI" src="https://github.com/user-attachments/assets/a21a78b7-a10b-4fd3-8e7a-e671ea93bbfb" />
+
+---
 
 ### 🖥️ Node Exporter Metrics
-<img src="https://github.com/user-attachments/assets/05d58f93-408f-4222-96ff-8a7b09dfa6a5" width="100%" />
+
+<img width="100%" alt="Node Exporter Metrics" src="https://github.com/user-attachments/assets/05d58f93-408f-4222-96ff-8a7b09dfa6a5" />
+
+---
 
 ### 🌐 Prometheus Overview
-<img src="https://github.com/user-attachments/assets/f72bffe5-293b-4e3e-a746-73e4f9cf3644" width="100%" />
+
+<img width="100%" alt="Prometheus Overview" src="https://github.com/user-attachments/assets/f72bffe5-293b-4e3e-a746-73e4f9cf3644" />
+
 
 
