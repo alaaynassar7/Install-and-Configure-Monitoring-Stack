@@ -47,3 +47,15 @@ ansible-monitoring-stack/
 │           └── main.yml
 └── README.md
 
+## 📂 Images
+<img width="1715" height="888" alt="image" src="https://github.com/user-attachments/assets/341d6f7b-12f8-4d6b-b09c-2412f06749f6" />
+
+<img width="1716" height="920" alt="image" src="https://github.com/user-attachments/assets/fa7ba37f-c5e4-417d-9b3c-64eacc02e671" />
+
+<img width="1722" height="893" alt="image" src="https://github.com/user-attachments/assets/a21a78b7-a10b-4fd3-8e7a-e671ea93bbfb" />
+
+<img width="1732" height="695" alt="image" src="https://github.com/user-attachments/assets/05d58f93-408f-4222-96ff-8a7b09dfa6a5" />
+
+<img width="1719" height="887" alt="image" src="https://github.com/user-attachments/assets/f72bffe5-293b-4e3e-a746-73e4f9cf3644" />
+
+
