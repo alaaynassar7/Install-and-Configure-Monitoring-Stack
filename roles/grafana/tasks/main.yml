@@ -1,12 +1,4 @@
-- name: Run Grafana container
-  containers.podman.podman_container:
-    name: grafana
-    image: docker.io/grafana/grafana
-    state: started
-    restart_policy: always
-    network: monitoring_net
-    ports:
-      - "3000:3000"
-    volumes:
-      - grafana_data:/var/lib/grafana
+- import_tasks: run-grafana.yml
+- import_tasks: import-datasource-api.yml
+- import_tasks: import-dashboard-api.yml
 

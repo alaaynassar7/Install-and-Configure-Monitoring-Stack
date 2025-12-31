@@ -1,0 +1,27 @@
+- name: Wait for Grafana API to be ready
+  ansible.builtin.wait_for:
+    host: localhost
+    port: 3000
+    delay: 5
+    timeout: 60
+
+- name: Create Prometheus datasource using Grafana API
+  ansible.builtin.uri:
+    url: "http://localhost:3000/api/datasources"
+    method: POST
+    user: admin
+    password: admin
+    force_basic_auth: yes
+    headers:
+      Content-Type: "application/json"
+    body_format: json
+    body: |
+      {
+        "name": "Prometheus",
+        "type": "prometheus",
+        "access": "proxy",
+        "url": "http://prometheus:9090",
+        "isDefault": true
+      }
+    status_code: [200, 409]
+

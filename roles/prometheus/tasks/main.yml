@@ -1,7 +1,12 @@
+- name: Create monitoring network
+  containers.podman.podman_network:
+    name: monitoring_net
+    state: present
+
 - name: Run Prometheus container
   containers.podman.podman_container:
     name: prometheus
-    image: quay.io/prometheus/prometheus
+    image: quay.io/prometheus/prometheus:latest
     state: started
     restart_policy: always
     network: monitoring_net
